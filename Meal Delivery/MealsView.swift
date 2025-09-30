@@ -15,7 +15,7 @@ struct MealsView: View {
         
         GeometryReader { proxy in
         
-            ScrollView (showsIndicators: false){
+            ScrollView (showsIndicators: false) {
                 
                 VStack (alignment: .leading) {
                     
@@ -33,7 +33,7 @@ struct MealsView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipShape(RoundedRectangle(cornerRadius: 5))
-                                    .frame(width: (proxy.size.width - 40/2))
+                                    .frame(width: (proxy.size.width - 40)/2)
                         }
                     }
                         

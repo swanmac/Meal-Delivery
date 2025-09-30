@@ -20,9 +20,11 @@ struct ContentView: View {
             AboutView()
                 .tabItem {
                     Image(systemName: "info.circle")
+                    Text("About")
                 }
-            .padding()
+            
         }
+        .padding()
     }
     
 }
