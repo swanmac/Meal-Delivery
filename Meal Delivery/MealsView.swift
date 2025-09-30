@@ -52,5 +52,5 @@ struct MealsView: View {
 }
                                            
 #Preview {
-    ContentView()
+    MealsView()
 }
